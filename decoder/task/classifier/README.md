@@ -1,5 +1,8 @@
-# Real-time DecNef Classifier
-This folder contains the scripts I used to implement the real-time decoding for the 5-day protocol. While I designed the training pipeline and feature selection for prediction error signals, the underlying model architecture is based on the following repo:
+# Real-time DecNef Framework
 
-### Attribution
-The logistic regression logic is implemented using the **[simple_tensorflow_logistic_regression_classifier](https://github.com/nmningmei/simple_tensorflow_logistic_regression_classifier)** developed by Ning Mei.
+This directory contains the experimental implementation of the 5-day neurofeedback protocol. I implemented and modified this pipeline by utilizing existing open-source frameworks to handle real-time neural decoding and feedback delivery.
+
+### System Architecture
+The software infrastructure for this project relies on the integration of two primary open-source tools:
+* **Real-time Communication:** The closed-loop feedback and data streaming are managed by the **[pyDecNef](https://github.com/pedromargolles/pyDecNef)** framework.
+* **Decoding Logic:** Neural classification is performed using the **[logistic regression classifier](https://github.com/nmningmei/simple_tensorflow_logistic_regression_classifier)** implementation.

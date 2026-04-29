@@ -1,0 +1,20 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Unconscious modulation of Prediction Error using Decoded
+  Neurofeedback during Problem Solving with Sparse Rewards
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Soan
+    family-names: Kim
+    email: soan.kim9@gmail.com
+    orcid: 'https://orcid.org/0000-0001-7720-3090'
+identifiers:
+  - type: url
+    value: 'https://github.com/SoanKim/pe-decnef-kim2026'
+license: MIT

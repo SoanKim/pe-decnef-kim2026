@@ -1,6 +1,7 @@
 #!/bin/bash
 # File name: sub35_dualbox_artifact_masking.sh
 # It surgically remove the signal artifacts caused by the 17-degree anatomical tilt.
+# Ir defines spatial boundaries, combine them using fslmaths into temp_danger_zones.nii.gz, and zero out the bright signal artifacts.
 
 BASE_DIR="/[put base dir here]"
 SUBJECT="subject-35"

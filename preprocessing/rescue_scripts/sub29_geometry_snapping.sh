@@ -1,6 +1,6 @@
 #!/bin/bash
 # FILENAME: sub29_geometry_snapping.sh
-# It resolves the massive spatial origin displacement using 3dresample by forcing Subject 29's functional files to match the master file's grid and origin before applying the MNI warp.
+# It resolves the massive raw (T1) spatial origin displacement using 3dresample by forcing Subject 29's functional files to match the master file's grid and origin before applying the MNI warp.
 
 subj="subject-29"
 # INPUT: Standard skull-stripped file

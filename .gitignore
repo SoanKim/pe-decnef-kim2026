@@ -15,3 +15,10 @@ src/tasks/
 .idea/
 __pycache__/
 *.pyc
+results/modeling_plots/hybrid_rt.png
+results/modeling_plots/hybrid_confidence.png
+results/imaging_plots/Group_Comparison_rsFC_vs_Accuracy.png
+results/imaging_plots/confidence_proportional_odds.png
+results/imaging_plots/correct_trials_PE-NonPE.png
+results/imaging_plots/correct-Incorrect_PE-NonPE.png
+results/imaging_plots/decnef_induction_logits.png

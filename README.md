@@ -13,13 +13,13 @@ These figures confirm that the real-time pipeline successfully engaged the targe
 We identified the most informative voxels for Prediction Error (PE) using a group-level searchlight analysis. 
 The resulting nested masks provided the anatomical basis for real-time induction.
 
-![Functional Masks](results/imaging_plots/Nested_AUC_Masks.jpg)
+![Functional Masks](results/imaging_plots/Nested_AUC_Masks.png)
 
 ### 2. Real-Time Induction Trajectory
 Throughout the 3-day training protocol, participants successfully re-created the target PE neural representations. 
 The decoding probabilities remained consistently above the 50% chance level, confirming the efficacy of the closed-loop reinforcement.
 
-![NF Trajectory](results/imaging_plots/Figure_NF_Trajectory.jpg)
+![NF Trajectory](results/imaging_plots/Figure_NF_Trajectory.png)
 
 ---
 

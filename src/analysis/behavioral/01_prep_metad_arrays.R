@@ -1,6 +1,6 @@
 # Title: Data Preprocessing for Metacognitive Efficiency Analysis
 # Project: pe-decnef-kim2026
-# Authors: Soan Kim
+# Author: Soan Kim
 # Purpose: Filter test-phase data and calculate 4-AFC adjusted d-prime with padded confidence distribution arrays for MLE optimization.
 
 Exp <- read.csv('~/[put dir here]/test.csv')

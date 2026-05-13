@@ -1,6 +1,6 @@
 % Title: Maximum Likelihood Estimation of Meta-d'
 % Project: pe-decnef-kim2026
-% Authors: Soan Kim
+% Author: Soan Kim
 % Purpose: Compute metacognitive sensitivity using the Maniscalco and Lau algorithm, applying 0.25 padding to input arrays to prevent log(0) optimization crashes.
 
 

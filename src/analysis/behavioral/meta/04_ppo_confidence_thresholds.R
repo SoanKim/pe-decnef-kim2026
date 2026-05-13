@@ -21,12 +21,26 @@ se  <- sqrt(diag(solve(ppo_model$Hessian)))
 z_val <- est / se
 p_val <- 2 * (1 - pnorm(abs(z_val)))
 
+ci_lower <- est - (1.96 * se)
+ci_upper <- est + (1.96 * se)
+
+odds_ratio <- exp(est)
+or_ci_lower <- exp(ci_lower)
+or_ci_upper <- exp(ci_upper)
+
 results_df <- data.frame(
   Estimate = est,
   StdErr = se,
   Z = z_val,
-  P = p_val
+  P = p_val,
+  CI_Lower = ci_lower,
+  CI_Upper = ci_upper,
+  OddsRatio = odds_ratio,
+  OR_CI_Lower = or_ci_lower,
+  OR_CI_Upper = or_ci_upper
 )
+
+print(round(results_df[, c("OddsRatio", "OR_CI_Lower", "OR_CI_Upper", "P")], 3))
 
 stargazer(results_df, 
           type = "latex", 
